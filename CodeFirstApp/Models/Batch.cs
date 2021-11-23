@@ -10,8 +10,12 @@ namespace CodeFirstApp.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Course { get; set; }
         public int Count { get; set; }
+       
+        // Add FK
+        public int CourseId { get; set; }
+        public Course Course { get; set; }
+
 
     }
 }

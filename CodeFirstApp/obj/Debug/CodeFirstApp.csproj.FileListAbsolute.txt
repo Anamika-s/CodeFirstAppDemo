@@ -10,3 +10,6 @@ C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFi
 C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.csproj.CopyComplete
 C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.exe
 C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.pdb
+C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.Migrations.Initial.resources
+C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.csproj.GenerateResource.cache
+C:\Users\adminvm.adminvm\source\repos\CodeFirstApp\CodeFirstApp\obj\Debug\CodeFirstApp.Migrations.Student.resources

@@ -53,14 +53,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202111230534443_Initial.cs" />
+    <Compile Include="Migrations\202111230534443_Initial.designer.cs">
+      <DependentUpon>202111230534443_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111230558402_Student.cs" />
+    <Compile Include="Migrations\202111230558402_Student.designer.cs">
+      <DependentUpon>202111230558402_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Batch.cs" />
     <Compile Include="Models\BatchDbContext.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202111230534443_Initial.resx">
+      <DependentUpon>202111230534443_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111230558402_Student.resx">
+      <DependentUpon>202111230558402_Student.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

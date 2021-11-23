@@ -9,7 +9,10 @@ namespace CodeFirstApp.Models
 {
     class BatchDbContext : DbContext
     {
-        
+        //public BatchDbContext(): base ("PracticeDb")
+        //{ }
         public DbSet<Batch> Batches { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }

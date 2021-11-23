@@ -34,7 +34,7 @@ namespace CodeFirstApp
         {
             Batch batch = new Batch();
             batch.Name = "B001";
-            batch.Course = "C#";
+            //batch.Course = "C#";
             batch.Count = 30;
             db.Batches.Add(batch);
             db.SaveChanges();
@@ -51,7 +51,7 @@ namespace CodeFirstApp
                     {
                         obj.Name = name;
                         obj.Count = count;
-                        obj.Course = course;
+                        //obj.Course = course;
                         break;
                     }
                 }
